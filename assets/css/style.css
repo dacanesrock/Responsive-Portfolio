@@ -142,14 +142,13 @@ p {
 
 /*contact form*/
 .contact-me {
-	float: left;
-	background-color: #fff;
-	width: 580px;
-	padding: 20px 40px;
-	margin: 10px 5px 10px 0px;
-	border-radius: 25px;
-	border: 1px solid #dddddd;
-}
+  float: left;
+  background-color: #fff;
+  width: 66%;
+  padding: 20px 40px;
+  margin-right: 1%;
+  border-radius: 25px;
+  border: 1px solid #dddddd;}
 
 .contact-me h1 {
 	font-size: 28px;
@@ -216,12 +215,12 @@ input[type=textarea] {
 /*portfolio*/
 .portfolio {
 	float: left;
-	background-color: #fff;
-	width: 580px;
-	padding: 20px 40px;
-	margin: 10px 5px 10px 0px;
-	border-radius: 25px;
-	border: 1px solid #dddddd;
+  background-color: #fff;
+  width: 66%;
+  padding: 20px 40px;
+  margin-right: 1%;
+  border-radius: 25px;
+  border: 1px solid #dddddd;
 }
 
 .portfolio-wrapper {
@@ -450,17 +449,18 @@ footer p {
 /*responsive tags*/
 
 @media screen and (max-width: 980px) {
- /* .wrapper {
-    max-width: 900px;
+  .wrapper {
+    max-width: 875px;
   }
-  */
+  
 }
 
 @media screen and (max-width: 768px) {
   .main-content,
   .sidebar,
   .contact-me,
-  .portfolio {
+  .portfolio,
+  .navbar {
     clear: both;
     display: block;
     width: 100%;
@@ -469,11 +469,12 @@ footer p {
     margin-top: 2%;
   }
   .wrapper {
+    display: block;
     flex-direction: column;
     max-width: 630px;
   }
   .navbar ul {
-    max-width: 630px;
+    max-width: 100%;
   }
   
 }
